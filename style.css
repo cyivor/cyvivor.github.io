@@ -1,0 +1,59 @@
+body {
+    background-color: #fce4ec;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+#message {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    white-space: nowrap;
+    color: #333;
+}
+
+#userInput {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 1em;
+    background-color: #f8bbd0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#kuromi-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#kuromi {
+    width: 64px;
+    height: 64px;
+}
